@@ -31,7 +31,7 @@ const MegaWalkin: React.FC<MegaWalkinProps> = ({ InterViewexpireDate }) => {
     <>
       <DynamicHead
         title="Mega Walk-in"
-        image="https://www.mediwavedigital.com/og-images/contact-og.png"
+        image="https://ramajeyam-mediwave.github.io/next_js_project/og-images/contact-og.png"
         description="We are just a click away, feel free to drop your questions. Our team will get in touch with you as soon as possible!"
       >
         <section className=" ">

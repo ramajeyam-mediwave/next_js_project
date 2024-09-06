@@ -1,4 +1,4 @@
-const IMG_URL = "https://www.mediwavedigital.com/assets/team/";
+const IMG_URL = "https://ramajeyam-mediwave.github.io/next_js_project/assets/team/";
 const IMG_FORMAT = ".jpg";
 
 const Staff6URL = `${IMG_URL}bala-chandar${IMG_FORMAT}`;

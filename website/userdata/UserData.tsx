@@ -87,7 +87,7 @@ import java from "../asset/image/png/swift.png";
 import jenkins from "../asset/image/png/jenkins.png";
 import kubernetes from "../asset/image/png/kubernetes.png";
 
-const IMG_URL = "https://www.mediwavedigital.com/assets/celebration/";
+const IMG_URL = "https://ramajeyam-mediwave.github.io/next_js_project/assets/celebration/";
 const IMG_FORMAT = ".jpg";
 
 const Birthday1 = `${IMG_URL}bddeep${IMG_FORMAT}`;
@@ -423,7 +423,7 @@ export const primaryMenu = [
   {
     id: "portfolio_projects",
     title: "PORTFOLIO",
-    link: "https://www.mediwavedigital.com/assets/mediwave-portfolio-2024.pdf",
+    link: "https://ramajeyam-mediwave.github.io/next_js_project/assets/mediwave-portfolio-2024.pdf",
     isExtenal: true,
   },
 ];
@@ -448,7 +448,7 @@ export const bentoMenu = [
   {
     id: "portfolio_projects",
     title: "PORTFOLIO",
-    link: "https://www.mediwavedigital.com/assets/mediwave-portfolio-2024.pdf",
+    link: "https://ramajeyam-mediwave.github.io/next_js_project/assets/mediwave-portfolio-2024.pdf",
     isExtenal: true,
   },
   {

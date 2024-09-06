@@ -49,7 +49,7 @@ export default function Home() {
     <>
       <DynamicHead
         title="Mediwave Digital"
-        image="https://www.mediwavedigital.com/og-images/home-og.png"
+        image="https://ramajeyam-mediwave.github.io/next_js_project/og-images/home-og.png"
         description="With over 50+ people and counting, we are a team of young and passionate individuals working to develop innovative and futuristic digital products and services. At Mediwave we believe that a happy employee is a productive employee and once you are a member of Mediwave, we encourage your ideas, visions, and suggestions."
       >
         {/* HERO SECTION */}

@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <DynamicHead
       title="Projects"
-      image="https://www.mediwavedigital.com/og-images/career-og.png"
+      image="https://ramajeyam-mediwave.github.io/next_js_project/og-images/career-og.png"
       description={`At our core, we're committed to transforming ideas into tangible results. Through a blend of creativity, expertise, and dedication, we turn visions into reality, fostering success and growth for our clients.`}
     >
       <section className="hero_block main_section bg-white-block">

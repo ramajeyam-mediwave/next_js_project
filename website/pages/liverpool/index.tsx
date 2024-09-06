@@ -74,8 +74,8 @@ const LiverpoolDetailsPage = () => {
   return (
     <>
       <DynamicHead
-        pageURL="https://www.mediwavedigital.com/liverpool"
-        image="https://www.mediwavedigital.com/og-images/liverpool-og.png"
+        pageURL="https://ramajeyam-mediwave.github.io/next_js_project/liverpool"
+        image="https://ramajeyam-mediwave.github.io/next_js_project/og-images/liverpool-og.png"
         title="About the project - liverpool"
         description="Starting in January 2020, Mediwave and Oxleas have joined forces to streamline 27 business objectives under four key domains: Care, Community, Trackers, and Tools. The Oxcare platform, accessible through NHS login credentials, enables patients to manage their health records, care plans, appointments, and personalised educational materials."
       >

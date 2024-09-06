@@ -2,6 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   // basePath: '/temp-staging-url',
+  basePath: '/next_js_project',
+  assetPrefix: '/next_js_project',
   output: "export",
   swcMinify: true,
   images: {

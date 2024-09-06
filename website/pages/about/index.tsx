@@ -22,8 +22,8 @@ const About = () => {
   return (
     <>
       <DynamicHead
-        pageURL="https://www.mediwavedigital.com/about"
-        image="https://www.mediwavedigital.com/og-images/about-og.png"
+        pageURL="https://ramajeyam-mediwave.github.io/next_js_project/about"
+        image="https://ramajeyam-mediwave.github.io/next_js_project/og-images/about-og.png"
         title="About"
         description="Through platforms and products designed collaboratively with end users, Mediwave drives positive change across various industries by helping end users achieve their goals, whether in healthcare, finance, education, retail, or technology. We tailor solutions that empower users to reach their objectives efficiently and effectively."
       >
@@ -48,7 +48,7 @@ const About = () => {
               heading1="About"
               heading2="Mediwave Digital"
               content="Mediwave Digital is a dynamic and forward-thinking technology company, we specialize in delivering customized digital solutions that cater to the unique needs of businesses across various industries. "
-              image="https://www.mediwavedigital.com/assets/celebration/event20224.jpg"
+              image="https://ramajeyam-mediwave.github.io/next_js_project/assets/celebration/event20224.jpg"
               infoContent="Our expertise spans software development, mobile application development, web application development, SaaS solutions, AR/VR applications, and more for the NHS including Healthlocker, GoodThinking, Medichec, and Health VR. The company has also collaborated with leading academic research centers in London and the UK."
             />
             <div className="bg_block">

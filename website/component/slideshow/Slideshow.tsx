@@ -7,7 +7,7 @@ import NoSSR from 'react-no-ssr';
 import { Pagination, Navigation, Autoplay } from 'swiper';
 import Image from 'next/image';
 import { Events } from './Events';
-const IMG_URL = 'https://www.mediwavedigital.com/assets/celebration/';
+const IMG_URL = 'https://ramajeyam-mediwave.github.io/next_js_project/assets/celebration/';
 const IMG_FORMAT = '.jpg';
 const Gallery1 = `${IMG_URL}holi62020${IMG_FORMAT}`;
 const Birthdeep = `${IMG_URL}bddeep${IMG_FORMAT}`;

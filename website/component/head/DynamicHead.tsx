@@ -17,7 +17,7 @@ const DynamicHead: React.FC<DynamicHeadProps> = ({
   pageURL,
 }) => {
   const siteTitle = "Mediwave Digital Private Limited";
-  const siteUrl = "https://www.mediwavedigital.com/";
+  const siteUrl = "https://ramajeyam-mediwave.github.io/next_js_project/";
   const ogImageUrl = `https://lh3.googleusercontent.com/p/AF1QipPbZXoHYnsDaRkblpvPlsoLk8pMAm85stpUksW2=s680-w680-h510`;
   return (
     <>

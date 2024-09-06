@@ -11,7 +11,7 @@ const OurTeam = () => {
     <>
       <DynamicHead
         title="Team"
-        image="https://www.mediwavedigital.com/og-images/team-og.png"
+        image="https://ramajeyam-mediwave.github.io/next_js_project/og-images/team-og.png"
         description="Mediwave Digital works on bringing together quality development and good design."
       >
         <section className="hero_block main_section bg-white-block team_hero_single">

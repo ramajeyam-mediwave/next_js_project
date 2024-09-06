@@ -15,7 +15,7 @@ const Blogs = () => {
     <>
       <DynamicHead
         title="Career"
-        image="https://www.mediwavedigital.com/og-images/career-og.png"
+        image="htthttps://ramajeyam-mediwave.github.io/next_js_project/og-images/career-og.png"
         description="At Mediwave, we have a people-first culture and believe that a happy employee is a productive employee. We are a flat organisation (which means there is no hierarchy). As a member of the Mediwave team, we encourage you to share your ideas, vision, and suggestions."
       >
         <section className="hero_block main_section bg-white-block">

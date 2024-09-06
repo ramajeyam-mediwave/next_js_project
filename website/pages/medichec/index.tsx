@@ -73,8 +73,8 @@ const MedichecDetailsPage = () => {
   return (
     <>
       <DynamicHead
-        pageURL="https://www.mediwavedigital.com/oxcare"
-        image="https://www.mediwavedigital.com/og-images/oxcare-og.png"
+        pageURL="https://ramajeyam-mediwave.github.io/next_js_project/oxcare"
+        image="https://ramajeyam-mediwave.github.io/next_js_project/og-images/oxcare-og.png"
         title="About the project - Oxcare"
         description="Starting in January 2020, Mediwave and Oxleas have joined forces to streamline 27 business objectives under four key domains: Care, Community, Trackers, and Tools. The Oxcare platform, accessible through NHS login credentials, enables patients to manage their health records, care plans, appointments, and personalised educational materials."
       >

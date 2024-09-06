@@ -27,7 +27,7 @@ import { ExternalLink } from "../../component/ExternalLink";
 import { TestimonialCard } from "../../component/card/testcard/TestimonialCard";
 import Page from "../../component/page/Page";
 import Link from "next/link";
-const IMG_URL = "https://www.mediwavedigital.com/assets/celebration/";
+const IMG_URL = "https://ramajeyam-mediwave.github.io/next_js_project/assets/celebration/";
 const IMG_FORMAT = ".jpg";
 const funimages1 = `${IMG_URL}bdgeorge${IMG_FORMAT}`;
 const funimages2 = `${IMG_URL}holi82020${IMG_FORMAT}`;
@@ -41,7 +41,7 @@ export default function MediwaveUK() {
     <>
       <DynamicHead
         title="Mediwave Digital UK"
-        image="https://www.mediwavedigital.com/og-images/home-og.png"
+        image="https://ramajeyam-mediwave.github.io/next_js_project/og-images/home-og.png"
         description="Mediwave Digital UK is the design and development team, bringing you native and web applications which have a positive impact on people, focussing on patient facing technologies for NHS and charities, as well as Clinical research."
       >
         <section className="hero_block main_section bg-white-block landing_hero_single">

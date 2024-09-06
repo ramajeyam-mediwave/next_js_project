@@ -29,7 +29,7 @@ const Fullstackjob = () => {
     <>
       <DynamicHead
         title='Full Stack Developer'
-        image='https://www.mediwavedigital.com/og-images/career-og.png'
+        image='https://ramajeyam-mediwave.github.io/next_js_project/og-images/career-og.png'
         description='We are looking for a Full Stack Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment. As a Full Stack Developer, you should be comfortable around both front-end and back-end coding languages, development frameworks and third-party libraries. You should also be a team player with a knack for visual design and utility.'
       >
         <section className='main_section bg-gray-block develop_circle_background'>
