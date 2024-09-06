@@ -1,0 +1,6 @@
+.button-drop-down{
+    @apply flex gap-1 p-[10px]
+} 
+.drop-align{
+    @apply bg-primaryCard rounded-sm border border-baseLine
+}

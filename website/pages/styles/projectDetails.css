@@ -1,0 +1,125 @@
+/* Page cover section */
+.project-details-cover {
+  @apply relative  w-full h-[550px] max-md:h-[380px] max-sm:h-[280px] bg-cover;
+}
+.project-details-cover .cover-curve {
+  @apply absolute -bottom-[2px] left-0 right-0;
+}
+.cover-curve svg {
+  @apply fill-current text-primary;
+}
+.project-details-cover.oxcare {
+  background-image: url(../../asset/image/cover-oxcare.jpg);
+}
+.project-details-cover.alderplay {
+  background-image: url(../../asset/image/alderplay-cover.jpg);
+}
+
+.project-details-cover.medichec {
+  background-image: url(../../asset/image/medichec-cover.jpg);
+}
+
+.project-details-cover.liverpool {
+  background-image: url(../../asset/image/asone-cover.jpg);
+}
+/* Page general styles */
+.content-section {
+  @apply py-20 max-md:py-16 max-sm:py-14 text-primaryContent;
+}
+.content-section.short {
+  @apply py-14 max-sm:py-10;
+}
+.content-container {
+  @apply max-w-lg max-lg:max-w-[90%] mx-auto;
+}
+.content-container img {
+  @apply mx-auto;
+}
+.content-container.short {
+  @apply max-w-[800px] max-lg:max-w-[90%];
+}
+.content-container.shorter {
+  @apply max-w-[500px] max-lg:max-w-[90%];
+}
+.spacer-25 {
+  @apply h-8 max-md:h-7 max-sm:h-6;
+}
+.spacer-50 {
+  @apply h-16 max-md:h-14 max-sm:h-12;
+}
+
+/* Details page Stats card styles */
+.stats-card {
+  @apply p-8 max-md:p-10 max-sm:p-8 bg-popup/40 rounded-sm shadow-lg;
+}
+.stats-card .details-wrap {
+  @apply mx-auto max-w-md grid grid-cols-2 max-sm:grid-cols-1;
+}
+.list-item-wrap {
+  @apply my-3 max-sm:my-2 m-0 block;
+}
+.list-item-wrap hr {
+  @apply w-[80%] border-b-2 border-popup;
+}
+.stats-card .details-wrap .list-item {
+  @apply block border-popup;
+}
+.stats-card .details-wrap .list-item-wrap:nth-child(5) hr {
+  @apply border-0 max-sm:border-b-2;
+}
+.stats-card .details-wrap .list-item-wrap:nth-child(6) hr {
+  @apply border-0;
+}
+.stats-card .details-wrap .list-item h3 {
+  @apply pb-1 text-primaryContent/75 text-base font-normal;
+}
+.stats-card .details-wrap .list-item p {
+  @apply text-xl max-sm:text-lg font-medium;
+}
+
+/* Section heading */
+.section-heading {
+  @apply pb-7 text-center uppercase text-6xl max-md:text-5xl max-sm:text-4xl font-bold text-primaryHeading;
+}
+
+/* Steps we took card styles */
+.steps-we-took-wrap {
+  @apply pt-8;
+}
+.steps-we-took-list {
+  @apply pb-16 max-md:pb-14 max-sm:pb-12 flex gap-4 bg-repeat-y bg-[top_left_22px] max-sm:bg-[top_left_18px];
+  background-image: url(../../asset/image/steps-dots.png);
+}
+.steps-we-took-list:last-child {
+  @apply bg-none;
+}
+.steps-we-took-list {
+  @apply pb-16 max-md:pb-14 max-sm:pb-12 flex gap-4;
+}
+.steps-we-took-list .number {
+  @apply -mt-1 flex items-center justify-center w-[50px] h-[50px] max-sm:w-[40px] max-sm:h-[40px] text-primary text-xl max-sm:text-base font-bold rounded-full border-2 border-primary;
+}
+.steps-we-took-list .number span {
+  @apply font-Nunito;
+}
+.steps-we-took-list:nth-child(1) .number {
+  @apply bg-cardline-100;
+}
+.steps-we-took-list:nth-child(2) .number {
+  @apply bg-cardline-200;
+}
+.steps-we-took-list:nth-child(3) .number {
+  @apply bg-cardline-300;
+}
+.steps-we-took-list .title {
+  @apply pb-6 max-md:pb-3 text-6xl max-md:text-5xl max-sm:text-3xl font-bold font-Nunito;
+}
+.steps-we-took-list .desc {
+  @apply pb-5 max-md:pb-4 block text-xl max-md:text-lg max-sm:text-base font-light font-Nunito;
+}
+.steps-we-took-list .tags-wrap {
+  @apply flex gap-2 flex-wrap;
+}
+.steps-we-took-list .tags-wrap span {
+  @apply px-4 py-2 max-sm:px-3 max-sm:py-1 font-Nunito bg-primary border-2 border-popup rounded-full;
+}

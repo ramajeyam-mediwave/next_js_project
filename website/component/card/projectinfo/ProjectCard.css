@@ -1,0 +1,108 @@
+.multi_head h1 {
+  @apply text-primaryContent text-6xl font-Raleway font-bold text-center;
+}
+.header_top h1 {
+  @apply !mt-10;
+}
+.multi_head p {
+  @apply text-primaryContent text-xl font-Nunito font-light text-center max-w-[840px] m-auto;
+}
+
+.multi_heading {
+  @apply flex justify-center flex-wrap mb-8;
+}
+
+.multi_head a {
+  @apply text-primaryHeading font-semibold underline;
+}
+.multi_heading h1 {
+  @apply mb-0;
+}
+.multi_heading h1:last-child {
+  @apply ml-2 text-primaryHeading;
+}
+
+.multicard_body {
+  @apply grid grid-cols-1 lg:grid-cols-2 lg:mt-[70px] mt-10 gap-10 lg:gap-32 items-start;
+}
+
+/* .multicard_body.col-1 {
+  @apply grid-cols-1;
+}
+
+.multicard_body.col-2 {
+  @apply md:grid-cols-2;
+}
+
+.multicard_body.col-3 {
+  @apply md:grid-cols-2 lg:grid-cols-3;
+}
+
+.multicard_body.col-4 {
+  @apply md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
+} */
+
+.project_card_block {
+  @apply grid justify-start items-center;
+}
+.project_card_block.show_line:nth-child(odd) {
+  @apply md:border-r border-solid border-gray-300/50;
+}
+
+.project_card_block.show_line:nth-child(1),
+.project_card_block.show_line:nth-child(2) {
+  @apply md:pt-0 !important;
+}
+
+.project_card_block.show_line:nth-last-child(1),
+.project_card_block.show_line:nth-last-child(2) {
+  @apply md:pb-0 !important;
+}
+
+.project_card_block.show_line:nth-child(2n + 1) {
+  @apply xl:py-16 md:border-b border-solid border-gray-300/70 md:py-10 py-4;
+}
+
+.project_card_block.show_line:nth-child(2n + 2) {
+  @apply xl:py-16 md:border-t border-solid border-gray-300/70 md:py-10  py-4;
+}
+.project_card_block.show_line:nth-last-child(2n + 1) {
+  @apply md:border-b md:border-t-0 !important;
+}
+.project_card_block.show_line:nth-last-child(3n + 2) {
+  @apply md:border-b-0;
+}
+.project_card_block.show_line:nth-last-child(4n + 3) {
+  @apply md:border-b-0 md:border-t-0;
+}
+.project_card_block.show_line:last-child {
+  @apply md:border-b-0 !important;
+}
+
+.project_card_block h2 {
+  @apply text-2xl font-bold font-Nunito text-left text-primaryContent mb-4;
+}
+
+.project_card_block span {
+  @apply rounded-full bg-primary py-3 px-[30px] text-base font-Nunito border-2 text-center  border-gray-200 text-primaryContent;
+}
+
+.project_Img_block {
+  @apply mb-[30px] flex justify-center items-end h-[547px] rounded-sm overflow-hidden;
+}
+
+.project_Img_block img {
+  @apply mb-[-80px] object-contain w-[275px];
+}
+
+.project_Img_block.w-alder img {
+  @apply w-[398px] mb-[-140px];
+}
+
+.multicard_main {
+  @apply w-[85%] m-auto mt-9;
+}
+
+.flow-list-block {
+  @apply flex flex-wrap gap-4 mb-10 lg:mb-0;
+}

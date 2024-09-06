@@ -1,0 +1,45 @@
+.cardOutercontainer {
+  @apply grid xl:grid-cols-3 lg:grid-cols-2 gap-[30px];
+}
+.cardInnercontainer {
+  @apply rounded-[10px]  drop-shadow-md bg-secondaryCard;
+}
+.cardWapper {
+  @apply px-8 py-10 grid gap-5  text-primaryContent;
+}
+.iconLogo svg {
+  @apply w-16 h-16 mx-auto;
+}
+.cardLogo {
+  @apply w-16 h-16 rounded-full flex justify-center items-center m-auto;
+}
+.cardTitle {
+  @apply m-auto font-Nunito text-2xl text-center font-bold;
+}
+.cardDescription {
+  @apply text-left min-h-[100px] overflow-hidden;
+}
+.cardButton {
+  @apply !m-auto !text-primaryContent hover:!text-secondaryContent !no-underline;
+}
+
+/* src/components/DevProcessCard.css */
+.dev.card {
+  @apply rounded-sm shadow-md;
+}
+
+.dev.card-header {
+  @apply px-6 py-10 rounded-t-sm;
+}
+.dev.card-header h3 {
+  @apply text-2xl font-semibold text-primary_BG;
+}
+.dev.card-body {
+  @apply p-7 text-base min-h-[100px];
+}
+.timeline-item {
+  @apply rounded-full text-center text-primary_BG text-lg font-semibold flex justify-center items-center w-[180px] h-[180px];
+}
+.timeline-arrow {
+  @apply rotate-90 text-center md:rotate-0;
+}

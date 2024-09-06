@@ -1,0 +1,9 @@
+.client_logo {
+  @apply grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 lg:gap-10;
+}
+.client_block {
+  @apply border rounded-md bg-white  py-7 flex justify-center items-center;
+}
+.client_block img {
+  @apply !object-contain;
+}

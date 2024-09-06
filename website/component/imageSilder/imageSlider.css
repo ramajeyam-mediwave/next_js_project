@@ -1,0 +1,26 @@
+.imgTitle {
+  @apply text-center text-7xl font-bold mt-32 mb-8;
+}
+.imageContainer {
+  @apply flex justify-between items-center border-y border-baseLine py-8 gap-5;
+}
+.carousel {
+  @apply w-full overflow-hidden relative;
+}
+.carouselTrack {
+  @apply flex items-center w-full animate-[scroll_20s_linear_infinite];
+}
+.carouselItem {
+  @apply shrink-0;
+}
+.carouselItem img {
+  @apply h-fit mx-5 rounded-sm bg-primary_BG p-2;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

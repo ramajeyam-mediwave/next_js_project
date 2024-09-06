@@ -1,0 +1,23 @@
+.project-card h3 {
+  @apply text-3xl font-bold font-Nunito;
+}
+
+.tags {
+  @apply flex gap-4 flex-wrap items-center;
+}
+.tags p {
+  @apply rounded-full py-1.5 px-4 text-base font-Nunito border-2 text-center  border-gray-200 bg-transparent text-primaryContent;
+}
+.img_container_block {
+  @apply flex items-center justify-center relative;
+}
+
+.img-bg {
+  @apply absolute h-[450px] w-full rounded-md bg-primary;
+}
+.img_mockup {
+  @apply z-50;
+}
+.card_item_center {
+  @apply grid items-center;
+}
